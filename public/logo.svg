@@ -1,0 +1,65 @@
+<svg
+        width="520"
+        height="120"
+        viewBox="0 0 520 120"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="Sikka Crypto  Trading Logo"
+>
+    <!-- Coin -->
+    <defs>
+        <linearGradient id="silverGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F2F2F2"/>
+            <stop offset="50%" stop-color="#BDBDBD"/>
+            <stop offset="100%" stop-color="#8E8E8E"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Outer coin -->
+    <circle cx="60" cy="60" r="42" fill="#0E0E0E" stroke="url(#silverGradient)" stroke-width="4"/>
+
+    <!-- Inner coin -->
+    <circle cx="60" cy="60" r="34" fill="#1A1A1A"/>
+
+    <!-- Rupee symbol -->
+    <text
+            x="60"
+            y="74"
+            text-anchor="middle"
+            font-size="42"
+            font-weight="600"
+            fill="url(#silverGradient)"
+            font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+    >
+        ₹
+    </text>
+
+    <!-- Brand Text -->
+    <g transform="translate(120, 52)">
+        <!-- SIKKA -->
+        <text
+                x="0"
+                y="0"
+                font-size="36"
+                font-weight="600"
+                fill="#EDEDED"
+                letter-spacing="4"
+                font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+        >
+            SIKKA
+        </text>
+
+        <!-- Subtitle -->
+        <text
+                x="0"
+                y="30"
+                font-size="14"
+                font-weight="400"
+                fill="#9A9A9A"
+                letter-spacing="3"
+                font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+        >
+            CRYPTO &amp; TRADING
+        </text>
+    </g>
+</svg>
